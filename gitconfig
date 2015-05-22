@@ -17,5 +17,7 @@
     ui = true
 [push]
     default = upstream
+[pull]
+    default = preserve
 [credential]
     helper = cache --timeout=3600
