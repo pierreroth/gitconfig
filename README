@@ -1,3 +1,9 @@
-Copy this file to your ~/.gitconfig
+Git configuration
 
-cp gitconfig ~/.gitconfig
+1- Copy this file to your ~/.gitconfig
+   
+   cp gitconfig ~/.gitconfig
+
+2- Add the following line to your ~/.bashrc
+
+  export PS1="${PS1::$((${#PS1}-3))}\$(__git_ps1 ' [\[\e[34;1m\]%s\[\e[0m\]]')\$ "
