@@ -23,3 +23,7 @@
     helper = cache --timeout=3600
 [status]
     showUntrackedFiles = all
+    submoduleSummary = true
+[diff]
+    submodule = log
+
