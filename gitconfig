@@ -9,7 +9,7 @@
     unstage = reset HEAD --
     untrack = rm --cached
     ds = diff --staged
-    ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad %C(red)%d %C(reset)%s %C(green)[%cn]' --decorate --date=short
+    ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad %C(red)%d %C(reset)%s %C(green)[%an]' --decorate --date=short
     graph = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
 [core]
     autocrlf = input
